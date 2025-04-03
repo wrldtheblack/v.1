@@ -143,3 +143,16 @@ h2 {
     transform: translateX(-50%);
     z-index: 1000;
 }
+ /* Basic setup for the element you want to fade */
+ .fade-on-scroll {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1s ease; /* Smooth transition */
+  }
+  .fade-on-scroll {
+    width: 200px; /* Example: Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Shadow */
+    margin: 10px; /* Optional: Spacing */
+    object-fit: cover; /* Optional: how the image should fit within its container */
+  }
